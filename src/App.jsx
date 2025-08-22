@@ -75,7 +75,7 @@ function App() {
                       let color = "#1a1a1a";
                       if (scores[name] === num) {
                         if (num >= 8) {
-                          color = "#646cff";
+                          color = "#10b981";
                         } else {
                           const red = 255;
                           const green = Math.floor(((num - 1) / 6) * 165);
