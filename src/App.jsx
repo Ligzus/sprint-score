@@ -9,7 +9,7 @@ function App() {
   const ro = ["Сергей"];
   const analysts = ["Пётр", "Алексей"];
   const developers = ["Максим", "Никита", "Владимир", "Игорь Задорин", "Матвей", "Игорь Касьяненко", "Георгий"];
-  const testers = ["Кристина", "Александр"];
+  const testers = ["Александр Бородин", "Александр Лобов"];
 
   const groups = [
     { name: "РО", members: ro },
