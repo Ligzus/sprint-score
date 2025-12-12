@@ -8,13 +8,17 @@ import { ref, onValue, set } from "firebase/database";
 function App() {
   const ro = ["Сергей"];
   const analysts = ["Пётр", "Алексей"];
-  const developers = ["Максим", "Никита", "Владимир", "Игорь Задорин", "Матвей", "Игорь Касьяненко", "Георгий"];
-  const testers = ["Александр Бородин", "Александр Лобов"];
+  const backDevelopers = ["Максим", "Никита", "Владимир"];
+  const frontDevelopers = ["Игорь Задорин"];
+  const mobileDevelopers = ["Матвей", "Игорь Касьяненко", "Георгий"];
+  const testers = ["Александр Бородин", "Александр Лобов", "Миша"];
 
   const groups = [
     { name: "РО", members: ro },
     { name: "Аналитики", members: analysts },
-    { name: "Разработчики", members: developers },
+    { name: "Backend", members: backDevelopers },
+    { name: "Mobile", members: mobileDevelopers },
+    { name: "Frontend", members: frontDevelopers },
     { name: "Тестировщики", members: testers },
   ];
 
