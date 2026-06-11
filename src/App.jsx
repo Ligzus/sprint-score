@@ -6,12 +6,12 @@ import { db } from './firebase';
 import { ref, onValue, set } from "firebase/database";
 
 function App() {
-  const ro = ["Сергей"];
+  const ro = ["Катя"];
   const analysts = ["Пётр", "Алексей"];
   const backDevelopers = ["Максим", "Никита", "Владимир"];
   const frontDevelopers = ["Игорь Задорин"];
   const mobileDevelopers = ["Матвей", "Игорь Касьяненко", "Георгий"];
-  const testers = ["Александр Бородин", "Александр Лобов", "Миша"];
+  const testers = ["Саша", "Олег", "Миша"];
 
   const groups = [
     { name: "РО", members: ro },
